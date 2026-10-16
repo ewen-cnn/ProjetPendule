@@ -1,0 +1,88 @@
+Configuration	projet ips acquisition donnees
+STM32CubeMX 	6.14.0
+Date	05/10/2025
+MCU	STM32F411RETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN1	ADC1_IN1	PA1
+ADC1	IN4	ADC1_IN4	PA4
+ADC1	IN5	ADC1_IN5	PA5
+ADC1	IN8	ADC1_IN8	PB0
+ADC1	IN10	ADC1_IN10	PC0
+ADC1	IN11	ADC1_IN11	PC1
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM3	Encoder Mode	TIM3_CH1	PB4
+TIM3	Encoder Mode	TIM3_CH2	PB5
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+8	PC0	ADC1_IN10	
+9	PC1	ADC1_IN11	
+15	PA1	ADC1_IN1	
+16	PA2	USART2_TX	
+17	PA3	USART2_RX	
+20	PA4	ADC1_IN4	
+21	PA5	ADC1_IN5	
+26	PB0	ADC1_IN8	
+55	PB3	GPIO_EXTI3	
+56	PB4	TIM3_CH1	
+57	PB5	TIM3_CH2	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN1	ADC1_IN1	PA1
+ADC1	IN4	ADC1_IN4	PA4
+ADC1	IN5	ADC1_IN5	PA5
+ADC1	IN8	ADC1_IN8	PB0
+ADC1	IN10	ADC1_IN10	PC0
+ADC1	IN11	ADC1_IN11	PC1
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM3	Encoder Mode	TIM3_CH1	PB4
+TIM3	Encoder Mode	TIM3_CH2	PB5
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+8	PC0	ADC1_IN10	
+9	PC1	ADC1_IN11	
+15	PA1	ADC1_IN1	
+16	PA2	USART2_TX	
+17	PA3	USART2_RX	
+20	PA4	ADC1_IN4	
+21	PA5	ADC1_IN5	
+26	PB0	ADC1_IN8	
+55	PB3	GPIO_EXTI3	
+56	PB4	TIM3_CH1	
+57	PB5	TIM3_CH2	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : projet ips acquisition donnees
+Project Folder : C:\Users\Ewen\Downloads\projet ips acquisition donnees\projet ips acquisition donnees
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F4 V1.28.1
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
